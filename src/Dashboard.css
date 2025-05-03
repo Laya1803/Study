@@ -1,0 +1,52 @@
+
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+#main_card{
+  display: flex;
+  gap: 5px;
+  width: 80%;
+  height: 130px;
+}
+
+  .navbar{
+    width: 100%;
+    background-color: #222; /* Dark background */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav{
+    list-style: none;
+  display: flex;
+  gap: 20px;
+  }
+  #card{
+    width: 100%;
+    height: 130px;
+  }
+  #to{
+    right: 20%;
+  }
+  #datepicker{
+    right: 50%;
+  }
+  #search{
+    right: 70%;
+  }
+.myCarousel .slick-arrow{
+  color: #070606 !important;
+  border: none;
+  outline: none;
+  background: #242424 !important;
+}
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
