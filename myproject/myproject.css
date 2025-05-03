@@ -1,0 +1,210 @@
+* {
+    margin: auto;
+    padding-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    padding-bottom: 10px;
+    align-items: center;
+    display: 'flex';
+    flex-direction : 'column';
+    max-width: 400;
+    margin: 'auto'
+}
+
+.heading {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color: red;
+    text-align: center;
+}
+
+.display-date {
+    position: relative;
+    right: 10px;
+    float: right;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.display-time {
+    color: white;
+    position: relative;
+    margin-top: 10px;
+    left: 150px;
+    float: right;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: ease-in-out 0.1s;
+    transition-property: background, box-shadow, color;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+}
+
+button {
+    position: relative;
+    top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+  background-color: #708090;
+}
+.main {
+    background-color: aquamarine;
+    background-image: url(https://img.freepik.com/free-vector/realistic-news-studio-background_23-2149985600.jpg?w=740&t=st=1678430521~exp=1678431121~hmac=ce2da2c9d652223c1eab8cec55986afa4e4fcb2c2acb378ed13f1a11ea971a21);
+    background-repeat: repeat-x;
+   
+}
+
+p {
+    position: relative;
+    display: inline-block;
+    color: #ffff;
+    font-size: 14px;
+    top: 25px;
+    gap: 20px;
+    align-items: center;
+  justify-content: center;
+}
+
+#contact {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    right: 50px;
+    gap: 20px;
+}
+
+#email {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 30px;
+    left: 50px;
+    gap: 20px;
+}
+
+
+
+.mcard{
+  position: relative;
+  top: 20vh;
+  border: 10px;
+  background-color:#BC8F8F ;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(0, 0, 0, 0.1);
+  width:700px;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  margin-left: 10px;
+   align-self: center;
+  padding: 3rem;
+  margin: 0 2.5rem;
+}
+.mtitle{
+  position: absolute;
+top: 8px;
+font-size: 18px;
+text-align: center;
+padding: 10px;
+}
+.mcard img{
+  position: relative;
+  top: 15px;
+  right: 100px; 
+  left: 10px;
+  width: 200px;
+  height: 200px;
+}
+.mcontent_info{
+  top: 20vh;
+  display: flex;
+  text-align: left;
+  padding: 3px;
+}
+.mcontent{
+  position: relative;
+  top: 15px;
+  left: 45px;
+  color:black;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.mauthor{
+  position: absolute;
+  display: flex;
+  right: 250px;
+  top: 58vh;
+  border: 10px;
+  /* border-radius: 50px; */
+  background-color: #2F4F4F;
+  font-size: 15px;
+  padding: 10px;
+}
+.mcard a{
+  display: flex;
+  color: white;
+  position: relative;
+  border: 20px;
+  width: 90px;
+  height: 20px;
+  background-color: #2F4F4F;
+  top:22vh;
+  right: 600px;
+  /* font-weight: bold; */
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.mday{
+font-size: 15px;
+display: inline;
+top: 40px;
+position: relative;
+}
+.mdate{
+position: absolute;
+display: flex;
+width: 130px;
+height: 20px;
+right: 410px;
+top: 20vh;
+border: 10px;
+background-color: #2F4F4F;
+padding: 10px;
+}
+.mtime{
+position: absolute;
+display: flex;
+left: 600px;
+top: 49vh;
+border: 10px;
+background-color: #2F4F4F;
+padding: 10px;
+}
+
+
+
+  
+  
+

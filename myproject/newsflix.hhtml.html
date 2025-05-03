@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="myproject.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="parent">
+        <div class="main-heading">
+          <div class="heading">
+            <h1>NewsFlix</h1>
+            <p id="contact">Contact:0451-123456</p>
+            <p id="email">E-mail:NewsFlix@gmail.com</p>
+          </div>                                                                            
+          <nav class="navbar">                                                                                                                  
+            <div class="display-date">
+              <span id="day">day</span>,
+              <span id="daynum">00</span>
+              <span id="month">month</span>
+              <span id="year">0000</span>
+            </div>
+            <div class="display-time"></div>
+            <script src="myproject.js"></script>
+          </nav>
+        </div>
+      </div>
+      <section>
+        <div class="btn" id="category">
+          <div class="categoryall">
+            <button id="general" class="general" value="general">general</button>
+            <button id="nation" class="nation" value="nation">
+              nation
+            </button>
+            <button id="buisness" class="buisness" value="business">
+              Buisness
+            </button>
+            <button value="sports" class="sports" value="sports">sports</button>
+            <button id="world" class="world" value="world">
+              world
+            </button>                       
+            <button id="technology" class="technology" value="technology">
+              Technology
+            </button>
+            <!-- <br><br> -->
+            <button id="health" class="health" value="health">
+              health
+            </button>
+            <button id="button" class="entertainment" value="entertainment">
+              entertainment
+            </button>
+            <button id="science" class="science" value="science">
+              science
+            </button>
+      
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <article id="article">
+      <div id="sports"></div>
+      <div id="miscallaneous"></div>
+    </article>
+  
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="function.js"></script>
+  </body>
+</html>
