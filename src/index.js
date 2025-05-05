@@ -1,21 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-//import Signup from './signup';
+//import Test from './Test';
+//import App from './App';
 //import Dashboard from './Dashboard';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import Product from './Product';
 import reportWebVitals from './reportWebVitals';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-       
-
+{/*<App />*/}
+    {/*<Test />*/}  
+    {/*<Dashboard />*/}
+    <Product />
   </React.StrictMode>
 );
 
