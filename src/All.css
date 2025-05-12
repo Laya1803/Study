@@ -1,0 +1,35 @@
+@media screen and (min-width: 576px) {
+    #signup{
+      background-color: blue;
+    }
+  }
+  @media screen and (min-width: 678px) {
+    #signup{
+      background-color: blueviolet;
+    }
+  }
+  @media screen and (min-width: 768px){
+    #signup{
+      background-color: aquamarine;
+    }
+  }
+ 
+  @media screen and (min-width: 1400px){
+    #signup{
+      background-color: burlywood;
+    }
+  }
+  .card{
+    position: relative;
+  width: "25rem",
+  }
+
+  .box{
+    background-color: blueviolet;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
